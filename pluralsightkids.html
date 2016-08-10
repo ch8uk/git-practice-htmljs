@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Geek Quality Test</title>
+</head>
+<body>
+
+<h1>Pluralsight if conditional using browser prompt</h1>
+
+<script>
+//geek score variable
+var geek_score = 0;
+
+//five geek test questions
+if (prompt("What would you like to do - 1) go to Movies or 2) go make a Movie ?") === "2") {
+    geek_score += 1;
+}
+if (prompt("It's 8pm on a Friday night - 1) Hang out at the mall or 2) own noobs at ?") === "2") {
+    geek_score += 1;
+}
+if (prompt("Have you ever been member of a chess club - 1) yes or 2) No ?") === "1") {
+    geek_score += 1;
+}
+if (prompt("Do you Magic or Pokemon cards - 1) Yes or 2) No ?") === "1") {
+    geek_score += 1;
+}
+if (prompt("The best machine for gaming - 1) PC 2) Console?") === "1") {
+    geek_score += 1;
+}
+// message, evalution of your geekness
+alert("Your geek score is " +geek_score.toString());
+
+</script>
+
+
+</body>
+
+
+</html>
