@@ -5,3 +5,4 @@ A collection of utility functions
 '''
 getRandomNumber(1, 10);
 // => 4
+'''
